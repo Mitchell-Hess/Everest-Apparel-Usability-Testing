@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="max-w-screen-xl mx-auto grid grid-cols-4">
             {/* ============ LogoIcon Start Here ==========*/}
             <div className="flex flex-col gap-7">
-                <img className="w-32" src={logoLight} alt="logoLight"/>
+                <h1 className="text-4xl font-extrabold tracking-wider uppercase text-white">EVEREST</h1>
                 <p className="text-white text-sm tracking-wide">© everestapparel.shop</p>
                 <img className="w-56" src={paymentLogo} alt="paymentLogo"/>
                 <div className="flex gap-5 text-lg text-gray-400">

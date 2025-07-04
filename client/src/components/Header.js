@@ -9,12 +9,13 @@ const Header = () => {
 
   return (
     <div className="w-full h-20 bg-white border-b-[1px] border-b-gray-800 font-titleFont sticky top-0 z-50">
-      <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between">
+      <div className="h-full px-24 mx-auto flex items-center justify-between">
         <Link to="/">
           <div>
-            <img className="w-28" src={logoDark} alt="logoDark" />
+            <h1 className="text-5xl font-extrabold tracking-wider uppercase text-black">EVEREST</h1>
           </div>
         </Link>
+        <h1 className="text-3xl tracking-wider uppercase pl-20 text-black">For every season</h1>
         <div className="flex items-center gap-8">
           <ul className="flex items-center gap-8">
             <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">

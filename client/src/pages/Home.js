@@ -16,7 +16,7 @@ const Home = () => {
       <Banner/>
       <Products
         products={products}
-        title="For every season"
+        title="Full Collection"
         description="Here at Everest Clothing, we value the ability to wear all of your favorite clothing, all of the time. Our goal is to provide stylish clothing that can be worn anywhere, any time - without sacrificing your favorite looks."
       />
     </div>
