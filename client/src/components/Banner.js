@@ -3,7 +3,7 @@ import { HiArrowRight, HiArrowLeft } from 'react-icons/hi';
 
 const Banner = () => {
   const data = [
-    'https://i.ibb.co/SRk3wGK/banner1exp-1.png',
+    'https://www.mattpaynephotography.com/images/xl/The-Mighty-Cimarrons-2022.jpg',
     'https://amazonproone.vercel.app/static/media/img5.aa945e25375bfdee385f.jpg',
     'https://amazonproone.vercel.app/static/media/img3.c80809bb40bee5c34372.jpg',
     'https://amazonproone.vercel.app/static/media/img1.efb3d39101f7ef77d616.jpg',
@@ -11,7 +11,7 @@ const Banner = () => {
 
   return (
     <div className="w-full h-auto overflow-x-hidden">
-      <div className="w-screen h-[650px] relative">
+      <div className="w-screen h-[500px] relative">
         <img
           className="w-screen h-full object-cover"
           src={data[0]}

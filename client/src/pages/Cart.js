@@ -69,8 +69,8 @@ const Cart = () => {
   return (
     <div>
       <img
-        className="w-full h-60 object-cover"
-        src="https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        className="w-full h-60 object-cover object-bottom"
+        src="https://wallpapers.com/images/hd/ultrawide-landscape-p1ih3splzh0n05tu.jpg"
         alt="cartImg"
       />
       <div className="max-w-screen-xl mx-auto py-20 flex">
