@@ -11,7 +11,7 @@ const Banner = () => {
 
   return (
     <div className="w-full h-auto overflow-x-hidden">
-      <div className="w-screen h-[500px] relative">
+      <div className="w-screen h-[400px] relative">
         <img
           className="w-screen h-full object-cover"
           src={data[0]}

@@ -73,7 +73,7 @@ const Cart = () => {
         src="https://wallpapers.com/images/hd/ultrawide-landscape-p1ih3splzh0n05tu.jpg"
         alt="cartImg"
       />
-      <div className="max-w-screen-xl mx-auto py-20 flex">
+      <div className="mx-auto px-96 py-10 flex">
         <CartItem />
         <div className="w-1/3 bg-[#fafafa] py-6 px-4">
           <div className="flex flex-col gap-6 border-b-[1px] border-b-gray-400 pb-6">
