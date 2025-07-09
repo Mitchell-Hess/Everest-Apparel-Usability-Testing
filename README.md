@@ -1,5 +1,9 @@
 # Group-2-Usability-Testing-Project
 
+## To Access Online
+
+Visit [here](https://everestapparel.shop/)
+
 ## Set-up
 
 To set up the project, clone the repository locally using the following command:
