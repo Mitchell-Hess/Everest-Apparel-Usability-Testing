@@ -31,9 +31,30 @@ const Footer = () => {
               <ImGithub />
             </a>
             <FaYoutube className="hover:text-white duration-300 cursor-pointer" />
-            <FaFacebookF className="hover:text-white duration-300 cursor-pointer" />
-            <FaTwitter className="hover:text-white duration-300 cursor-pointer" />
-            <FaInstagram className="hover:text-white duration-300 cursor-pointer" />
+            <a
+              href="https://facebook.com/fakeeverestpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white duration-300 cursor-pointer"
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://twitter.com/fakeeverestpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white duration-300 cursor-pointer"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://instagram.com/fakeeverestpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white duration-300 cursor-pointer"
+            >
+              <FaInstagram />
+            </a>
           </div>
         </div>
 
@@ -48,10 +69,13 @@ const Footer = () => {
             <a href="#" className="text-blue-400 hover:text-white duration-300 underline">
               Follow this link to track your order.
             </a>
-            <div className="flex items-center gap-2 mt-2">
-              <FaCommentDots className="text-lg text-blue-400" />
+            <a
+              href="#chat-now"
+              className="flex items-center gap-2 mt-2 text-blue-400 hover:text-white duration-300 underline"
+            >
+              <FaCommentDots className="text-lg" />
               <span className="text-sm">Instant Customer Chat</span>
-            </div>
+            </a>
           </div>
         </div>
 
