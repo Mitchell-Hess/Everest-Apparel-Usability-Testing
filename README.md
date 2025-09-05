@@ -1,4 +1,4 @@
-# Group-2-Usability-Testing-Project
+# Usability-Testing-Project
 
 ## To Access Online
 
